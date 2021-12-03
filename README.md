@@ -16,8 +16,12 @@ python3 integerToWord.py<br>
 or<br>
 python integerToWord.py<br>
 
-# Sample output:
+# Sample output 1:
 Please enter a non-negative integer number: 992147483648<br>
 Nine Hundred Ninety Two Billion One Hundred Forty Seven Million Four Hundred Eighty Three Thousand Six Hundred Forty Eight
 
 Total execution time: 0.00 seconds.
+
+# Sample output 2:
+Please enter a non-negative integer number: safiur<br>
+Please enter a non-negative integer number only!
