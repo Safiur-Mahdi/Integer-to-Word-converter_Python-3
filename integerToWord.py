@@ -22,6 +22,7 @@ def integerToWordConverter( integerNumber ):
     for power_, thousandPower in enumerate( thousandOrMore, 1 ):
         if integerNumber < 1000**(power_+1):
             return integerToWordConverter( integerNumber // 1000 ** power_ ) + [ thousandPower ] + integerToWordConverter( integerNumber % 1000 ** power_ )
+
 def main( integerNumber ):
     result = integerToWordConverter( integerNumber )
     print( ' '.join(result) if result else 'Zero')
