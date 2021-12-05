@@ -11,6 +11,9 @@ multiplesOfTen = ['','','Twenty','Thirty','Forty','Fifty','Sixty','Seventy','Eig
 thousandOrMore = ['Thousand','Million','Billion']
 
 def integerToWordConverter( integerNumber ):
+    """A recursive function to convert a non-negative integer to word
+    :param integerNumber: non-negative integer number
+    """
     if integerNumber == 0:
         return []
     if integerNumber < 20:
